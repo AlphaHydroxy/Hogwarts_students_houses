@@ -5,7 +5,7 @@ class House
   def initialize(options)
     @id = options['id'].to_i if options['id']
     @name = options['name']
-    @logo = "./logos/#{@name}.png"
+    @logo = "/logos/#{@name}.png"
   end
 
   def save()

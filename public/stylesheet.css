@@ -1,0 +1,38 @@
+body {
+  background: -webkit-linear-gradient(left, lightgrey, grey);
+  font-family: helvetica;
+  text-align: center;
+}
+
+img{
+  height: 25%;
+  width: 25%;
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: lightgrey;
+  box-shadow: 10px 5px 30px black;
+}
+
+ul li:hover{
+  background: rgba(255, 050, 255, 0.3);
+  border-radius: 40px;
+  -webkit-transition: background .5s;
+  transition: .5s;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  transition: all .2s ease-in-out;
+  padding-bottom: 30px;
+}
+
+img:hover{
+  transform: scale(1.5);
